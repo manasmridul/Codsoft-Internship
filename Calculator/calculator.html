@@ -1,0 +1,37 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="calc.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="Calculator">
+        <input id="display" readonly>
+        <div id="keys">
+            <button onclick="showindisplay('7')">7</button>
+            <button onclick="showindisplay('8')">8</button>
+            <button onclick="showindisplay('9')">9</button>
+            <button onclick="showindisplay('+')" class="operator">+</button>
+            <button onclick="showindisplay('4')">4</button>
+            <button onclick="showindisplay('5')">5</button>
+            <button onclick="showindisplay('6')">6</button>
+            <button onclick="showindisplay('-')" class="operator">-</button>
+            <button onclick="showindisplay('1')">1</button>
+            <button onclick="showindisplay('2')">2</button>
+            <button onclick="showindisplay('3')">3</button>
+            <button onclick="showindisplay('*')" class="operator">*</button>
+            <button onclick="showindisplay('0')">0</button>
+            <button onclick="showindisplay('.')">.</button>
+            <button onclick="calculate('=')">=</button>
+            <button onclick="showindisplay('/')" class="operator">/</button>
+            <button onclick="cleardisplay('cleardisplay')" class="clearbtn">C</button>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
