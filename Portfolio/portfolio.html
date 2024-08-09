@@ -1,74 +1,83 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="portfolio.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grey+Qo&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Your Name</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <a href="#" class="logo">Mridul</a>
+        <nav class="navlinks">
+            <a href="#" class="active">Portfolio</a>
+            <a href="#">Services</a>
+            <a href="#">Experience</a>
+            <a href="#">Projects</a>
+            <a href="#">Education</a>
+        </nav>
+        <a href="#" class="contact">Contact Me</a>
     </header>
+    <section id="about">
+        <img class="img" src="about.png" alt="Mridul Manas">
+        <h3>Hi, I am Mridul <br>A Web Developer</h3>
+        <p>As a Computer Science engineering student, I have honed my skills in software development, algorithms, and data structures. I'm proficient in programming languages like Python, Java, and C++, and have experience with web development, databases, and machine learning.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Proficiency in languages such as Python, Java, C++, JavaScript</li>
+            <li> Knowledge of SQL and NoSQL databases, including designing and managing schemas</li>
+            <li>Experience with HTML, CSS, JavaScript, and frameworks like React, Angular, or Vue.js</li>
+            <li>Experience in managing projects, including planning, execution, and delivery</li>
+        </ul>
+    </section>
+    <section id="Certifications">
+        <h2>Certifications</h2>
 
-    <section id="about" class="about">
-        <div class="container">
-            <h2>About Me</h2>
-            <p>Write a brief introduction about yourself here.</p>
+        <div class="certificate">
+            <img src="CAPA.png" alt="">
+            <h3>Cybersecurity Awareness</h3>
+        </div>
+        <div class="certificate">
+            <img src="cssd.png" alt="">
+            <h3>Career skills in Software Development</h3>
+        </div>
+        <div class="certificate">
+            <img src="introaigovernance.png" alt="">
+            <h3>Intro To AI Governance</h3>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project">
+            <img src="Project1.png" alt="A gaming review website landing page">
+            <h3>Landing Page</h3>
+            <p>A landing page create using html and css about gaming reviews </p>
+        </div>
+
+        <div class="project">
+            <img src="Project 2.png" alt="simple calculator using html, css and java">
+            <h3>Simple Calculator</h3>
+            <p>A simple Calculator capable of doing basic mathematical function like addition, subtraction, multiplication and divide</p>
         </div>
     </section>
 
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <h2>Portfolio</h2>
-            <div class="projects">
-                <div class="project">
-                    <h3>Project 1</h3>
-                    <p>Description of project 1.</p>
-                </div>
-                <div class="project">
-                    <h3>Project 2</h3>
-                    <p>Description of project 2.</p>
-                </div>
-                <div class="project">
-                    <h3>Project 3</h3>
-                    <p>Description of project 3.</p>
-                </div>
-            </div>
-        </div>
+    <section id="resume">
+        <p>Download my <a href="resume pdf.pdf" download>Resume</a></p>
     </section>
-
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <form action="#">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-
-                <button type="submit">Submit</button>
-            </form>
-        </div>
+    <section id="contact me">
+        <h2>Contact</h2>
+        <p>Email: manasmridul1103@gmail.com</p>
+        <p>Phone:+91-9308590015
+        </p>
     </section>
-
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Your Name. All rights reserved.</p>
-        </div>
+        <p>&copy; 2024 Mridul Manas. All rights reserved.</p>
     </footer>
+
 </body>
 </html>
